@@ -1,0 +1,43 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+token.json
+quickbooks_token.json
+credentials.json
+*service-account*.json
+GoogleService-Info.plist
+
+# User/session data
+Backend/user_sessions/
+Backend/local_qdrant_data/
+
+# Xcode user-specific files
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Node modules (if any)
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
